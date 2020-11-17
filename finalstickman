@@ -1,0 +1,38 @@
+#include <stdio.h>
+int main(void){
+    int h = 1;
+    int l, r, p, a, s, ss, ll;
+    int b = 2;
+    int c = 1;
+    
+    for (l = 1; l <= h; l++)
+    {
+        for (r = 1; r <= h; r++);
+            printf("( ");
+        for (r = 1; r <= h; r++);
+            printf("  )");
+        printf ("\n");
+    }
+    for (s = 1; s <= c; s++)
+    {
+        for (ss = s; ss <= c; ss++);
+            printf("__");
+        for (ss = s; ss <= c; ss++);
+            printf("|");
+        for (ss = s; ss <= c; ss++);
+            printf("__\n");
+    }
+    for (p = 1; p <= b; p++){
+        for (a = p; a <= b; a++);
+            printf ("  |\n");
+    }
+    for (ll = 1; ll <=c; ll++){
+        for (ll = 1; ll <= c; ll++);
+            printf(" /");
+        for (ll = 1; ll <= c; ll++);
+            printf(" \\ ");
+    }
+}
+
+
+
